@@ -3,9 +3,13 @@ Lab Work for Mad Hat
 INTERVIEW STORIES THIS CREATES
 "Walk me through how you would review a deployment before it goes to production." You have a five-part answer and most candidates have none. 
 1.Exposed URL: Check for publicly exposed URLs, API keys, tokens, or other sensitive information.
+
 2.Identity: Verify that users and services have proper authentication, managed identities, and only the permissions they need.
+
 3.Open Front Door: Review network security rules, firewalls, and public access to make sure unnecessary entry points are closed.
+
 4.Wrong Region: Verify that resources are deployed in the approved Azure region and meet company policies.
+
 5.Final review: Check logs, security alerts, configurations, and deployment policies before approving production.
 
 
