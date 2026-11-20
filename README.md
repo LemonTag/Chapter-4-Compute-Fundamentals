@@ -2,6 +2,7 @@
 Lab Work for Mad Hat
 INTERVIEW STORIES THIS CREATES
 "Walk me through how you would review a deployment before it goes to production." You have a five-part answer and most candidates have none. 
+
 1.Exposed URL: Check for publicly exposed URLs, API keys, tokens, or other sensitive information.
 
 2.Identity: Verify that users and services have proper authentication, managed identities, and only the permissions they need.
