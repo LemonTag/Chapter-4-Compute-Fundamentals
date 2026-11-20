@@ -15,14 +15,17 @@ INTERVIEW STORIES THIS CREATES
 
 
 "You find four (or more) issues at once. How do you decide what to fix first?" Exposure beats hygiene, active beats potential. Give the example.
+
 I would prioritize the exposed URL first because it could contain sensitive information or credentials that an attacker could use to gain access. I prioritize active security threats over configuration and compliance issues. I would focus on exposure first, then identity and network security, and finally less urgent configuration issues like the wrong region.
 
 
 
 "What is a managed identity and why does it matter?" Because the alternative is a credential sitting in configuration, and credentials in configuration end up in places like a public container.
+
 Managed identity allows an Azure resource to authenticate to other services without storing credentials in configuration files. It matters because it reduces the risk of exposed passwords, API keys, and secrets. It also allows administrators to control what resources that identity can access.
 
 "How would you prove a storage container is actually exposed rather than just misconfigured?" Private window, no session, open the URL... 
+
 If you can list or receive files from a storage container without authentication then it proves it was exposed. The misconfiguration of files from storage container is when the settings don't follow the security requirements issued by the organization.
 
 
