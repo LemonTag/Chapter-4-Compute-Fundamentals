@@ -3,44 +3,7 @@ Lab Work for Mad Hat
 INTERVIEW STORIES THIS CREATES
 1. Walk me through how you would review a deployment before it goes to production.
 
-I would follow a five-part security review to identify potential risks before approving a production deployment.
-
-Step
-
-Security Check
-
-What I Look For
-
-1. Exposed URLs
-
-Public exposure
-
-Publicly accessible URLs, API keys, tokens, or other sensitive information.
-
-2. Identity
-
-Authentication & permissions
-
-Proper authentication, managed identities, and least-privilege access.
-
-3. Open Front Door
-
-Network security
-
-Network security rules, firewalls, and unnecessary public entry points.
-
-4. Wrong Region
-
-Resource compliance
-
-Resources deployed in approved Azure regions and compliance with organizational policies.
-
-5. Final Review
-
-Monitoring & configuration
-
-Logs, security alerts, resource configurations, and deployment policies.
-
+1. I would prioritize the exposed URL first because it could contain sensitive information or credentials that an attacker could use to gain access. I prioritize active security threats over configuration and compliance issues. I would focus on exposure first, then identity and network security, and finally less urgent configuration issues like the wrong region.
 
 2. You find four or more issues at once. How do you decide what to fix first?
 
