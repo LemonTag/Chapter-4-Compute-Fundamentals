@@ -3,7 +3,7 @@ Lab Work for Mad Hat
 INTERVIEW STORIES THIS CREATES
 1. Walk me through how you would review a deployment before it goes to production.
 
-1. I would prioritize the exposed URL first because it could contain sensitive information or credentials that an attacker could use to gain access. I prioritize active security threats over configuration and compliance issues. I would focus on exposure first, then identity and network security, and finally less urgent configuration issues like the wrong region.
+I would prioritize the exposed URL first because it could contain sensitive information or credentials that an attacker could use to gain access. I prioritize active security threats over configuration and compliance issues. I would focus on exposure first, then identity and network security, and finally less urgent configuration issues like the wrong region.
 
 2. You find four or more issues at once. How do you decide what to fix first?
 
@@ -19,7 +19,6 @@ A managed identity allows an Azure resource to authenticate to other Azure servi
 4. How would you prove a storage container is actually exposed rather than just misconfigured?
 
 If you can list or receive files from a storage container without authentication then it proves it was exposed. The misconfiguration of files from storage container is when the settings don't follow the security requirements issued by the organization.
-
 
 
 5. "Tell me about a time you had to block or push back on something." You blocked a ship. That is the story.
